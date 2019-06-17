@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- CollapsingToolbarLayout -->
+    <style name="CollapsingToolbarLayoutTitleColor" parent="@android:style/TextAppearance.Medium">
+        <item name="android:textSize" tools:ignore="SpUsage">22dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor" tools:ignore="PrivateResource">#F3E96B</item>
+    </style>
+</resources>
